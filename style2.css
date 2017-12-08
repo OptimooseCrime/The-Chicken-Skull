@@ -50,6 +50,14 @@ nav {
   font-family: Fruktur;
   font-size: 20px;
 }
+main {
+  padding: 5%;
+  background-image: url("Foghorn.jpg");
+  background-size: contain;
+  background-position: center;
+  background-blend-mode: color-dodge;
+  background-color: #cccccc;
+}
 .pickin-chicken {
   display: flex;
   flex-flow: column;
