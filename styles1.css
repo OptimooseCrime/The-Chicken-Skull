@@ -1,6 +1,7 @@
 header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #070505;
     margin:-10px;
     border-style: solid;
@@ -8,11 +9,17 @@ header {
     border-color: black; 
     
 }
+header img {
+    height: 200px;
+    width: 250px;
+    padding: 25px;
+}
 .logo {
     font-family: Fruktur; 
     color: white;
     text-align: center;
     font-size: 30px;
+    margin-top: -25px;
 
 }
 .logo h2 {
@@ -38,12 +45,20 @@ nav {
 .home li a {
     color: #eae9f0;
     text-align: center;
-    padding: 20px 10px;
+    padding: 5px 10px;
     text-decoration: none;
-    font-family: copperplate;
+    font-family: Fruktur;
     font-size: 20px;
-
 }
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.about {
+width: 200px;
+}
+
 footer {
     display: flex;
     flex-flow: row;
