@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  background-color: green;
+}
+.copyright {
+  padding-left: 25px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.social-media-pic {
+  width: 50px;
+  height: 50px;
+}
